@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
+	"math"
 )
 
 func main() {
 
-	fmt.Println("My favorite number is", rand.Intn(1000))
+	fmt.Printf("Now you have %g problems.\n", math.Sqrt(9))
 
 }
